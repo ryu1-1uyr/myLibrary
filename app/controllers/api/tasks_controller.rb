@@ -1,4 +1,7 @@
 class Api::TasksController < ApplicationController
+  protect_from_forgery except: :index
+  protect_from_forgery except: :create
+  protect_from_forgery except: :update
 
   # GET /tasks
   def index
