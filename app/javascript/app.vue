@@ -5,13 +5,14 @@
 </template>
 
 <script>
-export default {
-  data: function () {
-    return {
-      message: "Hello Vue!"
+    export default {
+        data: function () {
+            return {
+                message: "I wanto use vuejs in rails"
+
+            }
+        }
     }
-  }
-}
 </script>
 
 <style scoped>
